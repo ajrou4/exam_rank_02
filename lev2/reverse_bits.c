@@ -1,6 +1,5 @@
 unsigned char	reverse_bits(unsigned char octet)
 {
-<<<<<<< HEAD
     int i = 8;
     int res = 0;
     while (i> 0)
@@ -10,7 +9,6 @@ unsigned char	reverse_bits(unsigned char octet)
        i--;
     }
     
-=======
     int  i = 8;
     int res = 0;
     while(i > 0)
@@ -19,5 +17,4 @@ unsigned char	reverse_bits(unsigned char octet)
         octet = octet / 10;
         i--;
     }
->>>>>>> 0de1286ad6ddc929f999250ddc6322734aff82fb
 }
